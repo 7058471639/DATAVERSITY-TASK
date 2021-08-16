@@ -1,0 +1,48 @@
+/* .matsidenav{
+    width:250px;
+    height:100vh;
+    background-color:lightseagreen;
+}
+.menuicon{
+    float:right;
+    /* justify-content: right; */
+/* }
+.maindiv{
+    float:left;
+}
+.toolbar{
+    position:fixed;
+    width:100%;
+    float:left
+}
+.mat-body{
+    background-color:mediumorchid;
+} */ 
+
+
+
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+    height: 100%;
+}
+
+mat-sidenav {
+    width: 250px;
+}
+
+main {
+    padding: 10px;
+}
+/* for sidenav to take a whole page */
+html, body { 
+    margin: 0;
+    height: 100%;
+}
+.sidecontainer{
+    color:white;
+    background-image: linear-gradient(to left,rgb(8, 8, 44),rgb(6, 6, 12))
+}
+.sidenavdiv{
+    margin-top:40px;
+    margin-left: 20px;
+
+}

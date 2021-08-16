@@ -1,0 +1,13 @@
+<mat-sidenav-container class="sidecontainer">
+    <mat-sidenav #sidenav role="navigation">
+        <div class="sidenavdiv">
+            <h1>DATAVERSITY</h1>
+            <h1>Menu</h1>
+        </div>
+        <app-sidenav-list (sidenavClose)="sidenav.close()"></app-sidenav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <app-header (sidenavToggle)="sidenav.toggle()"></app-header>
+        <app-sidecontent></app-sidecontent>
+    </mat-sidenav-content>
+</mat-sidenav-container>
