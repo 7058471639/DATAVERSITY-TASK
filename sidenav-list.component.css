@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+}
+
+/* a:hover, a:active{
+    color: lightgray;
+} */
+
+.nav-caption{
+    display: block;
+    padding-left: 6px;
+}
+mat-nav-list{
+    background-color:rgb(32, 32, 34);
+    height:78%
+}
+ .mat-list-item{
+     color:white;
+ }
+ /* mat-menu a{
+color:black
+ } */

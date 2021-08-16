@@ -1,0 +1,61 @@
+<mat-nav-list>
+    
+    <mat-list-item [matMenuTriggerFor]="menu1">
+ <a matline>About DATAVERSITY</a>
+        <mat-icon style="color:white ;margin-left:30px"> ></mat-icon>
+    </mat-list-item>
+    <mat-menu #menu1="matMenu">
+        <a routerLink="#" mat-menu-item > About us</a>
+        <a routerLink="#" mat-menu-item > Leadership</a>
+        <a routerLink="#" mat-menu-item > Vision and Mission</a>
+        <a routerLink="#" mat-menu-item > strategy</a>
+        <a routerLink="#" mat-menu-item > Career</a>
+        <a routerLink="#" mat-menu-item > Mission</a>
+     </mat-menu>
+    
+    <mat-list-item [matMenuTriggerFor]="menu2">
+         <a matline>Our Service</a>
+        <mat-icon style="color:white ;margin-left:95px"> ></mat-icon>
+    </mat-list-item>
+    <mat-menu #menu2="matMenu">
+        <a routerLink="#" mat-menu-item > Web Development</a>
+        <a routerLink="#" mat-menu-item > App Development</a>
+        <a routerLink="#" mat-menu-item >   E-commerce</a>
+        <a routerLink="#" mat-menu-item > Consulting</a>
+        <a routerLink="#" mat-menu-item > Digital marketing</a>
+        <a routerLink="#" mat-menu-item > SEO</a>
+        <a routerLink="#" mat-menu-item > Google Service</a>
+        <a routerLink="#" mat-menu-item> SMM</a>
+        <a routerLink="#" mat-menu-item > Process Automation</a>
+     </mat-menu>
+
+    <mat-list-item [matMenuTriggerFor]="menu3">
+  <a matline>Our Products</a>
+        <mat-icon style="color:white ;margin-left:80px"> ></mat-icon>
+    </mat-list-item>
+    <mat-menu #menu3="matMenu">
+        <a routerLink="#" mat-menu-item > Lead Management System(CRM)</a>
+        <a routerLink="#" mat-menu-item > Human Resource Management(HRMS)</a>
+        <a routerLink="#" mat-menu-item >  Enterprise Resource Planning(ERP)</a>
+        <a routerLink="#" mat-menu-item > Learning Management System (LMS)</a>
+        <a routerLink="#" mat-menu-item > Process Automation Tool(PDAT) </a>
+    </mat-menu>
+
+ <mat-list-item [matMenuTriggerFor]="menu4">
+ <a matline>Our Works</a>
+        <mat-icon style="color:white ;margin-left:95px"> ></mat-icon>
+    </mat-list-item>
+    <mat-menu #menu4="matMenu">
+        <a routerLink="#" mat-menu-item > Case Studies</a>
+        <a routerLink="#" mat-menu-item >Our Clients </a>
+    </mat-menu>
+
+    <mat-list-item [matMenuTriggerFor]="menu5">
+  <a matline>Knowledge Center</a>
+        <mat-icon style="color:white ;margin-left:70px"> ></mat-icon>
+    </mat-list-item>
+    <mat-menu #menu5="matMenu">
+        <a routerLink="#" mat-menu-item > Blog</a>
+        <a routerLink="#" mat-menu-item >Media Kit </a>
+    </mat-menu>
+</mat-nav-list>
