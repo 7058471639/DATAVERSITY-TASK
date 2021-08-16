@@ -1,0 +1,15 @@
+.headerdiv h1{
+    color:red;
+    font-size:40px;
+    font-weight:bold;
+    margin-left:40px;
+    float:left;
+    text-shadow:1px 2px 2px rgb(99, 97, 97);
+}
+mat-toolbar{
+    background-color:rgb(5, 5, 34);
+position:sticky;
+}
+.menuicon{
+    margin-left:70%;
+}
